@@ -1,0 +1,22 @@
+<script>
+function rand() {
+    document.getElementById("result").value = generateRandStr();
+}
+
+function generateRandStr() {
+    var candidates = "ABCDEFGHIJKLMNOPQRSTUVWXY123456789";
+    var result = "", rand;
+    for (var i = 0; i < 4; i++) {
+        for (var j = 0; j < 4; j++) {
+            rand = Math.floor(Math.random() * candidates.length);
+            result += candidates.charAt(rand);
+        }
+        if (i != 3) {
+            result += "-";
+        }
+    }
+    return result;
+}
+</script>
+ <input id="result" type="text>
+
