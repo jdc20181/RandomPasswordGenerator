@@ -20,3 +20,7 @@ There is no pattern in generating the passwords. They contain all Characters.
 The web version will be first to launch! Then the Downloadable version. 
 
 Be sure to give this project a star :)
+
+#Security
+
+The generator places a hyphon inbetween for security remove it to use it as a passcode!
